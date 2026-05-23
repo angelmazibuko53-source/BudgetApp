@@ -160,10 +160,6 @@
             {
                 Console.WriteLine("Warning! you are nearing your budget limit {0}", userName);
             }
-            if (budgetLimit > 0)
-                {
-
-            }
             // It shows when you have fineshed your budget or when you have already suppursed your budget!
             else if (totalExpense > budgetLimit)
             {
